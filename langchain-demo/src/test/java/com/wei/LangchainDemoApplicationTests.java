@@ -25,7 +25,7 @@ class LangchainDemoApplicationTests {
     void test2() {
         OpenAiChatModel model= OpenAiChatModel.builder()
                 .baseUrl("https://api.deepseek.com/v1")
-                .apiKey("sk-6455ad9637a64d86b3ac1152721ade9c")
+                .apiKey("sk-")
                 .modelName("deepseek-chat")
                 .build();
         String chat = model.chat("你好，请告诉我今天的热点新闻");
@@ -36,7 +36,7 @@ class LangchainDemoApplicationTests {
     void test3() {
         WanxImageModel model1= WanxImageModel.builder()
                 .modelName("wanx2.1-t2i-plus")
-                .apiKey("sk-8a3a4e8c3eb74300bb07e1bda84815a4")
+                .apiKey("sk-")
                 .build();
         Response<Image> response=model1.generate("美女");
         System.out.println(response);
