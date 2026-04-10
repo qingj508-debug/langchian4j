@@ -12,16 +12,16 @@ langchain4j:
     dashscope:
       # Embedding 模型配置（用于向量化）
       embedding-model:
-        api-key: "sk-9af2437b168f4e28bc5709ed5cc6cd54"  # 替换成你复制的完整 Key
+        api-key: "sk-"  # 替换成你复制的完整 Key
         model-name: "text-embedding-v2"
 
       # 聊天模型配置
       chat-model:
-        api-key: "sk-9af2437b168f4e28bc5709ed5cc6cd54"  # 使用同一个 Key
+        api-key: "sk-"  # 使用同一个 Key
         model-name: "qwen-turbo"  # 免费模型
         temperature: 0.7
 
       # 流式聊天模型
       streaming-chat-model:
-        api-key: "sk-9af2437b168f4e28bc5709ed5cc6cd54"
+        api-key: "sk-"
         model-name: "qwen-turbo"
